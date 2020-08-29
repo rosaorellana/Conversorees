@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:text="Conversores"
+        android:textColor="#3700B3"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnMonedas"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="90dp"
+        android:text="Monedas"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/btnMasa"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="170dp"
+        android:text="Masa"
+        android:fontFamily="sans-serif"
+        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+
+    <Button
+        android:id="@+id/btnVolumen"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="250dp"
+        android:text="Volumen"
+        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+
+    <Button
+        android:id="@+id/btnLongitud"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="330dp"
+        android:fontFamily="sans-serif"
+        android:text="Longitud"
+        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:id="@+id/btnAlmacenamiento"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="410dp"
+        android:fontFamily="sans-serif"
+        android:text="Almacenamiento"
+        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:id="@+id/btnTiempo"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="490dp"
+        android:text="Tiempo"
+        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:id="@+id/btnTransdatos"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="570dp"
+        android:fontFamily="sans-serif"
+        android:text="Transferencia de datos"
+        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+
+</RelativeLayout>
