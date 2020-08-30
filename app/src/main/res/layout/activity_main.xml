@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#26A7FF"
+    android:background="#95EB00"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,10 +12,10 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="85dp"
         android:layout_marginTop="30dp"
-        android:fontFamily="sans-serif"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="Conversores"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#0F0F0F"
+        android:textColor="#000000"
         android:textSize="30dp"
         android:textStyle="italic" />
 
@@ -26,10 +26,11 @@
         android:layout_height="65dp"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="90dp"
+        android:background="#5BA9FF"
         android:fontFamily="sans-serif-black"
         android:text="Monedas"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#162C9B"
+        android:textColor="#000000"
         android:textStyle="italic" />
 
     <Button
@@ -38,10 +39,11 @@
         android:layout_height="65dp"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="170dp"
+        android:background="#5BA9FF"
         android:fontFamily="sans-serif-black"
         android:text="Masa"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#162C9B"
+        android:textColor="#000000"
         android:textStyle="italic" />
 
     <Button
@@ -50,10 +52,11 @@
         android:layout_height="65dp"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="250dp"
+        android:background="#5BA9FF"
         android:fontFamily="sans-serif-black"
         android:text="Volumen"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#162C9B"
+        android:textColor="#000000"
         android:textStyle="italic" />
 
     <Button
@@ -62,10 +65,11 @@
         android:layout_height="65dp"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="330dp"
+        android:background="#5BA9FF"
         android:fontFamily="sans-serif-black"
         android:text="Longitud"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#162C9B"
+        android:textColor="#000000"
         android:textStyle="italic" />
 
     <Button
@@ -74,10 +78,11 @@
         android:layout_height="65dp"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="410dp"
+        android:background="#5BA9FF"
         android:fontFamily="sans-serif-black"
         android:text="Almacenamiento"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#162C9B"
+        android:textColor="#000000"
         android:textStyle="italic" />
 
     <Button
@@ -86,10 +91,11 @@
         android:layout_height="65dp"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="490dp"
+        android:background="#5BA9FF"
         android:fontFamily="sans-serif-black"
         android:text="Tiempo"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#162C9B"
+        android:textColor="#000000"
         android:textStyle="italic" />
 
     <Button
@@ -98,10 +104,11 @@
         android:layout_height="65dp"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="570dp"
+        android:background="#5BA9FF"
         android:fontFamily="sans-serif-black"
         android:text="Transferencia de datos"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#162C9B"
+        android:textColor="#000000"
         android:textStyle="italic" />
 
 </RelativeLayout>
