@@ -20,7 +20,8 @@
             <TabWidget
                 android:id="@android:id/tabs"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:background="#95EB00" />
 
             <FrameLayout
                 android:id="@android:id/tabcontent"
@@ -31,7 +32,9 @@
                     android:id="@+id/universal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#418DFF  "
                     android:orientation="vertical">
+
                     <EditText
                         android:id="@+id/txt3"
                         android:layout_width="wrap_content"
@@ -41,6 +44,7 @@
                         android:ems="10"
                         android:hint="Valor"
                         android:inputType="text" />
+
                     <EditText
                         android:id="@+id/txt2"
                         android:layout_width="wrap_content"
@@ -50,6 +54,7 @@
                         android:ems="10"
                         android:hint="Unidades"
                         android:inputType="numberDecimal" />
+
                     <EditText
                         android:id="@+id/txt1"
                         android:layout_width="wrap_content"
@@ -59,6 +64,7 @@
                         android:ems="10"
                         android:hint="Cantidad"
                         android:inputType="numberDecimal" />
+
                     <Button
                         android:id="@+id/btnConvertir"
                         android:layout_width="wrap_content"
